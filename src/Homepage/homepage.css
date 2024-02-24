@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#home-Nav{
+    height: 100px;
+}
+
+#home-cont{
+    height: calc(100vh - 100px);
+   
+}
