@@ -1,4 +1,5 @@
 html{
+
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
@@ -8,9 +9,11 @@ html{
     margin: 0px;
     box-sizing: border-box;
 
+
 }
 
 body{
+
     background-color: #0c0c1d;
     color: lightgray;
 }
@@ -23,5 +26,6 @@ a{
 section{
     height: 100vh;
     scroll-snap-align: center;
+
 
 }
