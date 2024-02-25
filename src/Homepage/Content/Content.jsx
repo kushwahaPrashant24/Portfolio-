@@ -28,7 +28,7 @@ function Content (){
     <div className="Wrapper">
      <Textarea />
      </div>
-     /*<motion.div className="slidingtext" variants={sliderVariants} animate="animate" initial="initial">
+     <motion.div className="slidingtext" variants={sliderVariants} animate="animate" initial="initial">
      innovator
      </motion.div>
 
