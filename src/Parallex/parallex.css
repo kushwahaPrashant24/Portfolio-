@@ -1,0 +1,42 @@
+#Parallex{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Parallex-h1{
+    font-size: 100px;
+}
+
+
+#Mountains{
+    height: 100%;
+    width: 100%;
+background-image: url(../Images/mountains.png);
+background-size: cover;
+background-position: bottom;
+position: absolute;
+z-index: 3;
+}
+
+#Planets{
+    height: 100%;
+    width: 100%;
+background-image: url(../Images/planets.png);
+background-size: cover;
+background-position: bottom;
+position: absolute;
+z-index: 2;
+}
+
+#Stars{
+    height: 100%;
+    width: 100%;
+background-image: url(../Images/stars.png);
+background-size: cover;
+background-position: bottom;
+position: absolute;
+z-index: 1;
+}
