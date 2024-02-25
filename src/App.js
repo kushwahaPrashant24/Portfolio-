@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './Homepage/NavBar/navbar';
 import Homepage from './Homepage/Homepage';
 import Parallex from './Parallex/parallex';
+import About from './About me/Aboutme';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
      <section id='Services'>
      <Parallex type="services" />
      </section>
-     <section id='About'>ABOUT</section>
+     <section id='About'><About /></section>
      <section id='Portfolio'>
      <Parallex type="Portfolio" />
      </section>
