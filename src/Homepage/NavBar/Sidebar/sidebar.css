@@ -5,6 +5,7 @@
   justify-content: center;
   background-color: wheat;
   color: rgb(255, 233, 233);
+  z-index: 5;
 }
 
 .bg {
@@ -14,7 +15,7 @@
   bottom: 0;
   width: 350px;
   background-color: #d9f2fb;
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .links {
@@ -36,6 +37,7 @@ a {
 }
 
 button {
+ 
   cursor: grab;
   height: 50px;
   width: 50px;
