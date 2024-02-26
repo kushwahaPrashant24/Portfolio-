@@ -36,8 +36,11 @@
     border: 2px solid white;
     border-radius: 20px;
     padding: 15px;
+    display: flex;
     cursor: pointer;
     font-weight: 700;
+    height: 50px;
+    cursor: pointer;
 }
 
 #Scrolling{
@@ -68,6 +71,10 @@
     text-overflow: hidden;
 }
 
+#buttomsa{
+    color: aliceblue;
+    font-size: 20px;
+}
 
 
 

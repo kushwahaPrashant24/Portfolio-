@@ -28,11 +28,11 @@ function Content (){
     <div className="Wrapper">
      <Textarea />
      </div>
-     /*<motion.div className="slidingtext" variants={sliderVariants} animate="animate" initial="initial">
+     <motion.div className="slidingtext" variants={sliderVariants} animate="animate" initial="initial">
      innovator
      </motion.div>
 
-       <div id="Images"><img src={Image}  /></div>
+       <div id="Images"><img src={Image} /></div>
         
     </div>
 }
