@@ -41,8 +41,8 @@ function textarea() {
 
 
     <motion.div id="text-info" variants={textVariants}>
-    <motion.div className="buttoms" variants={textVariants}>See the Latest Work</motion.div>
-    <motion.div className="buttoms" variants={textVariants}>Contact Me</motion.div>
+    <motion.div className="buttoms" variants={textVariants}><a id="buttomsa" href="https://drive.google.com/file/d/1l17eL6pud7qjakID6pyaGrR21DDdB8yD/view?usp=sharing" target="main">RESUME</a> </motion.div>
+    <motion.div className="buttoms" variants={textVariants}><a id="buttomsa" >CONTACT ME</a></motion.div>
     </motion.div>
 
    <motion.img id="Scrolling" src={ScrollImg} variants={textVariants}
