@@ -17,7 +17,8 @@ function App() {
      <section id='Portfolio'>
      <Parallex type="Portfolio" />
      </section>
-     <section>PROJECT1</section>
+     <section id='Skills'>SKILLS</section>
+     <section id='Project'>PROJECT</section>
      <section>PROJECT2</section>
      <section>PROJECT3</section>
      <section>PROJECT4</section>
