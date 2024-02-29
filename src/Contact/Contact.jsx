@@ -5,14 +5,14 @@ import ContactArea from "./ContactArea";
 
 const variants = {
     initial: {
-      y: 500,
+      y: 300,
       opacity: 0,
     },
     animate: {
       y: 0,
       opacity: 1,
       transition: {
-        duration: 0.7,
+        duration: 0.4,
         staggerChildren: 0.1,
       },
     },
