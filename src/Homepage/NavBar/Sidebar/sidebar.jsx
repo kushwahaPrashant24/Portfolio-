@@ -38,7 +38,7 @@ function Sidebar() {
       <motion.div className="bg" variants={variants}>
         <Links />
       </motion.div>
-      <Togglebutton onClick={handleClick} />
+      <Togglebutton onClick={handleClick} id="Navbut"/>
     </motion.div>
   );
 }
