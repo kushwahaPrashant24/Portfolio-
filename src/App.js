@@ -3,6 +3,7 @@ import Navbar from './Homepage/NavBar/navbar';
 import Homepage from './Homepage/Homepage';
 import Parallex from './Parallex/parallex';
 import About from './About me/Aboutme';
+import Project from './Project/Project';
 
 function App() {
   return (
@@ -18,11 +19,7 @@ function App() {
      <Parallex type="Portfolio" />
      </section>
      <section id='Skills'>SKILLS</section>
-     <section id='Project'>PROJECT</section>
-     <section>PROJECT2</section>
-     <section>PROJECT3</section>
-     <section>PROJECT4</section>
-     <section>PROJECT5</section>
+      <Project />
      <section id='Contact'>CONTACT</section>
     </div>
   );
