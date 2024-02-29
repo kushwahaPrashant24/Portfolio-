@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function Togglebutton(props) {
   return (
-    <button onClick={props.onClick}>
+    <button onClick={props.onClick} id="Navbut">
       <svg width="23" height="23" viewBox="0 0 23 23">
         <motion.path
           strokeWidth="4"

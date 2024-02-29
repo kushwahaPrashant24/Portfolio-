@@ -33,7 +33,7 @@ function Links() {
   return (
     <motion.div className="links">
       {items.map((item) => (
-        <motion.a href={`#${item}`} key={item} variants={itemvariants} whileHover={{scale:1.2}}>
+        <motion.a id="linksbut" href={`#${item}`} key={item} variants={itemvariants} whileHover={{scale:1.2}}>
           {item}
         </motion.a>
       ))}

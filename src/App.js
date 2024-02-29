@@ -4,6 +4,7 @@ import Homepage from './Homepage/Homepage';
 import Parallex from './Parallex/parallex';
 import About from './About me/Aboutme';
 import Project from './Project/Project';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
      </section>
      <section id='Skills'>SKILLS</section>
       <Project />
-     <section id='Contact'>CONTACT</section>
+     <section id='Contact'><Contact /></section>
     </div>
   );
 }

@@ -1,0 +1,54 @@
+#Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#contactText{
+    display: flex;
+   
+    
+    flex-direction: column;
+    gap: 20px;
+}
+
+#Contacthead{
+    font-size: 3rem;
+}
+
+#Contactdata h1{
+    font-size: 1.5rem;
+}
+
+#Contactdata span {
+    font-size: 1rem;
+}
+
+/*Massagearea*/
+
+#contactArea{
+    flex: 1;
+}
+
+#contactArea form{
+
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contactArea input,textarea {
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+#contactArea button {
+    background-color: yellow;
+}
+

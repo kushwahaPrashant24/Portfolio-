@@ -31,12 +31,12 @@
   left: 2px;
 }
 
-a {
+#linksbut {
   font-size: 2rem;
   color: black;
 }
 
-button {
+#Navbut {
  
   cursor: grab;
   height: 50px;
