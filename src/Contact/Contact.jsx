@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import { motion } from "framer-motion";
+import ContactArea from "./ContactArea";
 
 const variants = {
     initial: {
@@ -48,14 +49,7 @@ function Contact() {
           <span>+91 9795243902</span>
         </motion.div>
       </motion.div>
-      <div id="contactArea">
-        <form>
-          <input type="text" placeholder="Name" />
-          <input type="email" placeholder="Email" />
-          <textarea rows={6} placeholder="Massage" />
-          <button>Submit </button>
-        </form>
-      </div>
+      <ContactArea />
     </motion.div>
   );
 }
