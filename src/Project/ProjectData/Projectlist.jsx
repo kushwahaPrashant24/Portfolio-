@@ -1,5 +1,4 @@
-import keeperaap from "../../Images/Keeper app.png";
-import TOdolist from "../../Images/To do list.png";
+
 
 const props = [
     {
@@ -32,7 +31,7 @@ const props = [
     {
         "id": 4,
         name: "My Portfolio",
-        img:"https://www.indiacasinos.com/wp-content/uploads/craps-dice-games-indian-casino.png",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4Le77fPb72LG-0OGTUrf8o7-dLG0M1x5z_w&usqp=CAU",
         about:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         hostedlink: "https://kushwahaprashant24.github.io/MY-PORTFOLIO/",
         sourcecode: "https://github.com/kushwahaPrashant24/MY-PORTFOLIO",
@@ -59,7 +58,7 @@ const props = [
     {
         "id": 7,
         name: "Plantopia",
-        img:"",
+        img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDfkZyEFfGmTsEAWiWtoo5Xmw5OMwxmLt3Bg&usqp=CAU",
         about:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         hostedlink: "https://plantopiaask.netlify.app/",
         sourcecode: "https://github.com/kushwahaPrashant24/Plantopia",
@@ -68,7 +67,7 @@ const props = [
     {
         "id": 8,
         name: "My Portfolio",
-        img:"",
+        img:"https://colorlib.com/wp/wp-content/uploads/sites/2/myphotography-free-template-353x278.jpg",
         about:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
         hostedlink: "",
         sourcecode: "https://github.com/kushwahaPrashant24/Portfolio-",
