@@ -8,12 +8,12 @@ function Project() {
    
     const ref = useRef();
 
-    const {scrollYprocess } = useScroll({
+    const {scrollYProgress } = useScroll({
         target:  ref,
         offset: ["end end", "start start"],
     });
 
-    const scaleX = useSpring(scrollYprocess, {
+    const scaleX = useSpring(scrollYProgress, {
         stiffness: 100,
         damping: 30,
     });
