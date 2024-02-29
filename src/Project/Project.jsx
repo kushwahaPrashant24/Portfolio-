@@ -2,7 +2,7 @@ import React from "react";
 import './Project.css'
 import { useRef } from "react";
 import Projectdata from "./ProjectData/ProjectData";
-import {motion ,  useScroll ,useSpring} from "framer-motion"
+import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 function Project() {
    
@@ -21,7 +21,7 @@ function Project() {
     return <div id="Project" ref={ref}>
           <div id="Process">
             <h1 id="Projectheading">Featured Work</h1>
-            <motion.div style={{scaleX}} id="Processbar"></motion.div>
+            <motion.div style={{  scaleX }} id="Processbar"></motion.div>
           </div>
         <Projectdata />
      </div>
