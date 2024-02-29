@@ -6,14 +6,17 @@ import Cards from "./Card";
 
 function createCard(Card){
     return <section>
-    <div className="container">
-        <div className="wrapper">
+    
     <Cards 
         key={Card.id}
         name={Card.name}
+        img={Card.img}
+        about={Card.about}
+        hostedlink={Card.hostedlink}
+        sourcecode={Card.sourcecode}
+        
     />
-    </div>
-    </div>
+   
     </section>
 }
 
