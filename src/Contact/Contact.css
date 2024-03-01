@@ -29,6 +29,7 @@
 
 #contactArea{
     flex: 1;
+    z-index: 1;
     
 }
 
@@ -39,6 +40,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 1;
+
 }
 
 #contactArea input,textarea {
@@ -49,12 +52,14 @@
     border: 1px solid white;
     border-radius: 5px;
     color: white;
+    z-index: 1;
 }
 
 #contactsvg{
     stroke: orange;
     position: absolute;
     margin: auto;
+    z-index: 1;
 }
 
 #contactArea button {
@@ -64,5 +69,6 @@
     border-radius: 5px;
     background-color: rgb(246, 183, 24);
     cursor: pointer;
+    z-index: 1;
 }
 
