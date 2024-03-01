@@ -1,0 +1,20 @@
+#Skillsdata{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 200px;
+}
+
+#Skillcart{
+    display: flex;
+    align-items: center;
+}
+
+#skillcarthead{
+    font-size: 2rem;
+    color: rgb(185, 149, 219);
+}
