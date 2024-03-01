@@ -44,10 +44,17 @@
 #contactArea input,textarea {
     width: 400px;
     padding: 20px;
+    position: relative;
     background-color: transparent;
     border: 1px solid white;
     border-radius: 5px;
     color: white;
+}
+
+#contactsvg{
+    stroke: orange;
+    position: absolute;
+    margin: auto;
 }
 
 #contactArea button {
