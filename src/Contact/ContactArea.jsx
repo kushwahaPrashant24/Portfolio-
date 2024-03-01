@@ -61,8 +61,8 @@ function ContactArea() {
             <motion.path
               strokeWidth={0.2}
               fill="none"
-              initial={{ pathLength: 0 }}
-              animate={isInView && { pathLength: 1 }}
+              initial={{ pathLength: 1 }}
+              animate={isInView && { pathLength: 0 }}
               transition={{ duration: 2 }}
               d="M14.207 5.53564C14.207 5.53564 15.197 5.81849 16.6819 7.30341C18.1668 8.78834 18.4497 9.77829 18.4497 9.77829"
               stroke="#d1a400"

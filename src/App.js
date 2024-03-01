@@ -5,6 +5,7 @@ import Parallex from './Parallex/parallex';
 import About from './About me/Aboutme';
 import Project from './Project/Project';
 import Contact from './Contact/Contact';
+import Skills from './Skills/skills';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
      <section id='Portfolio'>
      <Parallex type="Portfolio" />
      </section>
-     <section id='Skills'>SKILLS</section>
+     <section id='Skills'><Skills /></section>
       <Project />
      <section id='Contact'><Contact /></section>
     </div>
