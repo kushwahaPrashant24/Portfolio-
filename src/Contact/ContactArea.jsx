@@ -89,7 +89,7 @@ function ContactArea() {
       >
         <input type="text" name="name" required placeholder="Name" />
         <input type="email" name="email"  required placeholder="Email" />
-        <textarea  name="message" rows={6} placeholder="Massage" />
+        <textarea  name="message" rows={6} placeholder="Message" />
         <button>Submit</button>
         {success && "Success"}
         {error && "Error"}
