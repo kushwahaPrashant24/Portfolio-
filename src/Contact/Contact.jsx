@@ -31,7 +31,7 @@ function Contact() {
       <motion.div id="contactText" variants={variants}>
         
           <motion.h1 id="Contacthead" variants={variants}>
-            Let's Work<br></br>togrther
+            Let's Work<br></br>together
           </motion.h1>
        
         <motion.div id="Contactdata" variants={variants}>
