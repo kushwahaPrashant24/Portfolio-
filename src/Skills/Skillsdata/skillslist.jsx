@@ -1,63 +1,65 @@
+import HTML from "../../phone-calling-svgrepo-com (1).svg"
+
 const props = [
 
     {
        "id": 1,
        name: "C",
-       svg:"",
+       img: '',
     },
 
     {
         "id": 2,
         name: "HTML",
-        svg:"",
+        img:"",
      },
      {
         "id": 3,
         name: "CSS",
-        svg:"",
+        img:"",
      },
 
      {
         "id": 4,
         name: "BOOTSTRAP",
-        svg:"",
+        img:"",
      },
      {
         "id": 5,
         name: "JAVA SCRIPT",
-        svg:"",
+        img:"",
      },
 
      {
         "id": 6,
         name: "JQUERY",
-        svg:"",
+        img:"",
      },
 
 
      {
         "id": 7,
         name: "REACT",
-        svg:"",
+        img:"",
      },
  
      {
         "id": 8,
         name: "",
-        svg:"",
+        img:"",
      },
 
     /* {
         "id": 9,
         name: "",
-        svg:"",
+        img:"",
      },
  
 
      {
         "id": 1,
         name: "",
-        svg:"",
+        img:"",
      },*/
  
  
