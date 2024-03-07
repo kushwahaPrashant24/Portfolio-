@@ -62,6 +62,7 @@
 }
 
 .slidingtext{
+   
     position: absolute;
     font-size: 50vh;
     bottom: -70px;
@@ -72,6 +73,7 @@
 }
 
 #buttomsa{
+    z-index: 1;
     color: aliceblue;
     font-size: 20px;
 }
@@ -81,14 +83,15 @@
 #Images{
     height: 100%;
     position: absolute;
-    
     right: 0;
    
 }
 
-img{
+#img{
     height: 86%;
     width: 550px;
     overflow: hidden;
     object-fit: cover;
 }
+
+
