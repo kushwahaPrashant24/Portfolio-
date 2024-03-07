@@ -24,6 +24,11 @@
   background-size: cover;
 }
 
+#Projectimg{
+  height: 50vh;
+  width: 40vw;
+}
+
 .Textcontainer {
   flex: 2;
   display: flex;

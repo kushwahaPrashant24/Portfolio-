@@ -2,7 +2,7 @@ import React from "react";
 import '../Content/Content.css';
 import Image from '../../Images/png-removebg-preview.png';
 import Textarea from './textarea';
-import {motion} from "framer-motion";
+import {motion, transform} from "framer-motion";
 
 
 const sliderVariants = {
@@ -29,10 +29,10 @@ function Content (){
      <Textarea />
      </div>
      <motion.div className="slidingtext" variants={sliderVariants} animate="animate" initial="initial">
-     innovator
+     Creator
      </motion.div>
 
-       <div id="Images"><img src={Image} /></div>
+       <div id="Images"><motion.img id="img" src={Image} /></div>
         
     </div>
 }
