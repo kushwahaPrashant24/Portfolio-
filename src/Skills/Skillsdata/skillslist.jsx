@@ -21,24 +21,37 @@ const props = [
 
      {
         "id": 4,
-        name: "BOOTSTRAP",
+        name: "SCSS",
         img:"",
      },
+
      {
-        "id": 5,
+      "id": 5,
+      name: "BOOTSTRAP",
+      img:"",
+    },
+
+    {
+      "id": 6,
+      name: "Tailwind",
+      img:"",
+   },
+
+     {
+        "id": 7,
         name: "JAVA SCRIPT",
         img:"",
      },
 
      {
-        "id": 6,
+        "id": 8,
         name: "JQUERY",
         img:"",
      },
 
 
      {
-        "id": 7,
+        "id": 9,
         name: "REACT",
         img:"",
      },
