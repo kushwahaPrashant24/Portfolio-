@@ -79,6 +79,16 @@ function Skillsdata() {
         >
           <h2
           >
+            SCSS
+          </h2>
+      </motion.div>
+      <motion.div className="skillcircle" 
+        variants={variants}
+            initial="initial"
+            whileInView="animate"
+        >
+          <h2
+          >
             BOOTSTRAP
           </h2>
       </motion.div>
@@ -89,6 +99,17 @@ function Skillsdata() {
             initial="initial"
             whileInView="animate"
      >
+      <motion.div className="skillcircle" 
+        variants={variants}
+            initial="initial"
+            whileInView="animate"
+        >
+          <h2
+          >
+            TAILWIND
+          </h2>
+      </motion.div>
+
         <motion.div className="skillcircle" 
         variants={variants}
             initial="initial"
