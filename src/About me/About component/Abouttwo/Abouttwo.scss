@@ -3,21 +3,45 @@
     display: flex;
     margin-top: 170px;
     flex-direction: column;
+    color: rgb(230, 223, 215);
     h1{
       font-weight: 900;  
+      font-size: 2rem;
     }
     #AboutBorder{
-        border-top: 2px solid rgb(227, 226, 226);
+        border-top: 2px solid rgb(247, 166, 166);
         height: 10px;
         width: 90%;
     }
 
     p{
-        
+       height: 100px; 
+       margin-top: 40px;
+       padding-right: 30px;
+       font-size: 1.3rem;
+       font-weight: 900;
+       color: rgb(173, 171, 167);
+       font-family: 'Times New Roman', Times, serif;
     }
 
     form{
+        
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
+        gap: 4px;
+        div{
+            display: flex;
+            justify-content: space-between;
+            padding-right: 10px;
+            font-size: medium;
+            font-size: 20px;
+            font-weight: 400;
+            gap: 10px;
+            span{
+                color: rgb(127, 246, 246);
+            }
+        }
     }
+    
 }

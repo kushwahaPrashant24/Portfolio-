@@ -17,19 +17,24 @@ function Abouttwo() {
 
       <div id="form">
         <form>
-          <label>Name: Prashant Kushwaha</label>
+        <div className="formab">
+          <label><span>Name:</span> Prashant Kushwaha</label>
           
-          <label>Phone: +91 9795243902</label>
-           <br></br>
+          <label><span>Phone:</span> +91 9795243902</label>
+          </div>
+           <div className="formab">
           <label>
-            Education: Bechelors in Computer Science and Engineering
+          <span>Education:</span> Bechelors in Computer Science and Engineering
           </label>
-          
+          </div>
+          <div>
           <label>
-            Address: RGS Nagar Boys Hostel, Avantika extension, Ghaziabad
+          <span>Address:</span> RGS Nagar Boys Hostel, Avantika extension, Ghaziabad
           </label>
-          <br></br>
-          <label>Email: prashantkush24@gmail.com</label>
+          </div>
+          <div className="formab">
+          <label><span>Email:</span> prashantkush24@gmail.com</label>
+          </div>        
         </form>
       </div>
       <div>
